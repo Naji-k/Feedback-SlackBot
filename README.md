@@ -1,21 +1,21 @@
 <p align="center">
-    <img src="./assets/Logo.png"  width=25% height=25%>
+    <img src="./Assets/Logo.png"  width=25% height=25%>
 </p>
 
 
 # Welcome to the Feedback Bot Project!
 
 I developed this during my internship at TomTom.
-It aims to automate managing feedback across multiple Slack channels. It was built with the Slack Bolt framework in Python.
+It was built in Python using the Slack Bolt framework to automate managing feedback across multiple Slack channels.
 This bot reduces manual intervention by categorizing feedback using AI, storing it in a database, generating Jira tickets, and visualizing data through Grafana dashboards.
 
 ## Problem Statement
 
-The current method of processing feedback from the Slack channel is manual. It involves individual replies to users and creating Jira tickets with attachments. This manual process makes it challenging to effectively track issues related to specific components.
+The current method of processing feedback from the Slack channel is manual. It involves individual replies to users and creating Jira tickets with attachments. This manual process makes it challenging to track issues related to specific components.
 
 ## Features
 
-- **Feedback Parsing:** Analyze Slack messages to determine the number of incidents per message, extract titles, and discern the domain or category of feedback such as Routing, Guidance, Map Visualization, and Search using a trained Large Language Model (LLM).
+- **Feedback Parsing:** Analyze Slack messages to determine the number of incidents per message, extract titles, and discern the domain or category of feedback, such as Routing, Guidance, Map Visualization, and Search, using a trained large language model (LLM).
 - **Multi-Channel Capability**: Designed to operate across multiple Slack channels.
 - **Integration with JIRA**: Each categorized feedback item automatically propagated as a new ticket to JIRA via the JIRA API.
 - **Development of a Grafana Dashboard:** Develop a dashboard to visualize and monitor feedback data effectively.
@@ -33,7 +33,7 @@ The current method of processing feedback from the Slack channel is manual. It i
 
 #### Workflow overview:
 <p align="center">
-    <img src="./assets/workflow.png"  width=70% height=70%>
+    <img src="./Assets/workflow.png"  width=70% height=70%>
 </p>
 
 ## What I Learned
